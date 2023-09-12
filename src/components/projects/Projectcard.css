@@ -1,13 +1,14 @@
 .cards > img {
-    width: 350px;
-    height: 180px;
+    width: 100%;
+    height: 200px;
     border-radius: 10px;
+
 }
-.cards{
+/* .cards{
     margin: 15px;
-    width: 350px;
-    height: 250px;
-}
+    width: 100%;
+    height: 100%;
+} */
 .size{
     display: flex;
 }

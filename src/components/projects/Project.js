@@ -26,7 +26,7 @@ export const Project = () => {
     },
   ];
   return (
-    <div className="project pt-3">
+    <div className="container-fluid project pt-3">
       <h1
         style={{
           display: "flex",
@@ -38,11 +38,12 @@ export const Project = () => {
       </h1>
       <div className="row pt-3">
         {Projects.map((project, index) => (
-          <div key={index} className="col-lg-3">
+          <div key={index} className="col-lg-3 col-md-6 col-sm-12">
             <ProjectCard
               img={project.img}
               title={project.title}
               link={project.link}
+              className="w-100 h-100"
             />
           </div>
         ))}

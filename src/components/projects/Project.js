@@ -5,6 +5,11 @@ import { ProjectCard } from "./ProjectCard";
 export const Project = () => {
   const Projects = [
     {
+      img: "https://mybuyers.in/static/media/beforTabView.62ee6a2fba894a70a1d8.jpg",
+      title: "My_Buyers",
+      link: "https://mybuyers.in",
+    },
+    {
       img: "https://shriknitwear.com/images/iStock-1196392582.jpg",
       title: "Shriknitwear",
       link: "https://shriknitwear.com",
